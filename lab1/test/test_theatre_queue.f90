@@ -6,7 +6,8 @@ program test_theatre_queue
   implicit none
   integer(int32) :: n, m, i
   logical :: f
-  n=50
+  print *, "Введите n: "
+  read (*,*) n
   m=5
   print *, probability(n)
   do i = 1, m
